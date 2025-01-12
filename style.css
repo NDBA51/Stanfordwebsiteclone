@@ -14,7 +14,7 @@ body, html {
    
   }
   .toppage {
-    background-image: url(/Images/university.png);
+    background-image: url(/images/university.png);
    background-size: 100%;
    background-repeat: no-repeat;
   }
