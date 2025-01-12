@@ -1,0 +1,2 @@
+# Stanfordwebsiteclone
+AICT FINAL EXAM PROJECT WEBSITE CLONING 
