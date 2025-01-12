@@ -19,7 +19,7 @@ body, html {
    background-repeat: no-repeat;
   }
   .mainheader {
-    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.4) 80%, transparent 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0.3) 90%, transparent 100%);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -112,9 +112,6 @@ body, html {
   .search-btn:hover {
     background-color: #B83A3A;
   }
-  .hero-title a {
-    font-size: 30px;
-  }
   
   .hero-title a {
     color: #ffffff;
@@ -126,6 +123,15 @@ body, html {
     position: relative;
     height: 80vh;
     overflow: hidden;
+  }
+  .news-category {
+    font-size: larger;
+    font-weight: bold;
+    color: #6f1111;
+  }
+  h3 {
+    font-size: larger;
+    font-weight: bold;
   }
   
   .hero-bg {
@@ -148,7 +154,7 @@ body, html {
   }
   
   .hero-title {
-    color: var(--white);
+    color: #ffffff;
     font-size: 120px;
     font-weight: 300;
     margin: 0;
@@ -396,7 +402,7 @@ h1 {
 
 .athletics {
     padding: 60px 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 .athletics-grid {
@@ -535,6 +541,7 @@ h1 {
     margin-top: 65px;
 }
 
+
 @media screen and (max-width: 1024px) {
     .hero-title a {
       font-size: 80px;
@@ -596,4 +603,5 @@ h1 {
 .top-header a, .main-nav a {
     font-size: 8px;
   }
+  
 }
